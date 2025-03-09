@@ -1,0 +1,89 @@
+{
+    "name": "DEV Env",
+    "values": [
+        {
+            "key": "api_url",
+            "value": "https://wholesale-dev-api.cf.dev-paas.bskyb.com",
+            "type": "default",
+            "enabled": true
+        },
+        {
+            "key": "spi_url",
+            "value": "https://wholesale-dev-spi.cf.dev-paas.bskyb.com",
+            "type": "default",
+            "enabled": true
+        },
+        {
+            "key": "partner_id",
+            "value": "",
+            "type": "default",
+            "enabled": true
+        },
+        {
+            "key": "auth",
+            "value": "",
+            "type": "secret",
+            "enabled": true
+        },
+        {
+            "key": "primary_interconnect",
+            "value": "ATP-CLBIS-XXX-1",
+            "type": "default",
+            "enabled": true
+        },
+        {
+            "key": "secondary_interconnect",
+            "value": "ATP-CLBIS-XXX-2",
+            "type": "default",
+            "enabled": true
+        },
+        {
+            "key": "extra_interconnect",
+            "value": "ATP-MYHLT-XXX-1",
+            "type": "default",
+            "enabled": true
+        },
+        {
+            "key": "ro2_asset_reference",
+            "value": "SKY-ATP-004",
+            "type": "default",
+            "enabled": true
+        },
+        {
+            "key": "ro2_asset_postcode",
+            "value": "S1 4SD",
+            "type": "default",
+            "enabled": true
+        },
+        {
+            "key": "renewal_asset",
+            "value": "SKY-ATP-001",
+            "type": "default",
+            "enabled": true
+        },
+        {
+            "key": "renewal_productcode",
+            "value": "EACCESS_30_100_36",
+            "type": "default",
+            "enabled": true
+        },
+        {
+            "key": "modify_svlan_asset",
+            "value": "SKY-ATP-008",
+            "type": "default",
+            "enabled": true
+        },
+        {
+            "key": "modify_interconnect_asset",
+            "value": "SKY-ATP-002",
+            "type": "default",
+            "enabled": true
+        },
+        {
+            "key": "modify_b_end_asset",
+            "value": "SKY-ATP-002",
+            "type": "default",
+            "enabled": true
+        }
+    ]
+}

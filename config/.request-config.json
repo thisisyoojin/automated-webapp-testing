@@ -1,0 +1,53 @@
+{
+    "iteration": 3,
+    "urls": [
+        {
+            "name": "multiquotes",
+            "endpoint": "ethernet/v1/multiquotes/"
+        },
+        {
+            "name": "multiquotes (query_limit=20)",
+            "endpoint": "ethernet/v1/multiquotes/?query_limit=20"
+        },
+        {
+            "name": "multiquotes (query_limit=100)",
+            "endpoint": "ethernet/v1/multiquotes/?query_limit=100"
+        },
+        {
+            "name": "multiquotes (query_limit=250)",
+            "endpoint": "ethernet/v1/multiquotes/?query_limit=250"
+        },
+        {
+            "name": "orders",
+            "endpoint": "ethernet/v1/orders/eaccess/"
+        },
+        {
+            "name": "orders (query_limit=20)",
+            "endpoint": "ethernet/v1/orders/eaccess/?query_limit=20"
+        },
+        {
+            "name": "orders (query_limit=100)",
+            "endpoint": "ethernet/v1/orders/eaccess/?query_limit=100"
+        },
+        {
+            "name": "orders (query_limit=250)",
+            "endpoint": "ethernet/v1/orders/eaccess/?query_limit=250"
+        },
+        {
+            "name": "services",
+            "endpoint": "ethernet/v1/services/eaccess/"
+        },
+        {
+            "name": "services (query_limit=20)",
+            "endpoint": "ethernet/v1/services/eaccess/?query_limit=20"
+        },
+        {
+            "name": "services (query_limit=100)",
+            "endpoint": "ethernet/v1/services/eaccess/?query_limit=100"
+        },
+        {
+            "name": "services (query_limit=250)",
+            "endpoint": "ethernet/v1/services/eaccess/?query_limit=250"
+        }
+    ]
+}

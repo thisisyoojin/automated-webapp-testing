@@ -1,0 +1,11 @@
+# configuration
+config/.env.conf.json
+config/.postman.**.json
+# dependencies
+node_modules/**
+# test result
+results/run/**
+**.xlsx
+# cache
+**cache**
+**/.DS_Store

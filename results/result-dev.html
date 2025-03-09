@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>API Test result</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+      .result-doc {
+        height: 100vh;
+        width: 100%;
+        object-fit: contain;
+      }
+    </style>
+  </head>
+
+  <body onload="loading('dev')">
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 p-3">
+      <a class="btn btn-info me-3" onclick="openPage('meta')">dev</a>
+
+      <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" onClick="openPage('func-dev-result')" role="button">Functional</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onClick="openPage('smoke-dev-result')" role="button">Smoke</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onClick="openPage('perf-dev-result')" role="button">Performance</a>
+          </li>
+        </ul>
+      </div>
+      <a class="navbar-brand">Oasis API Test Result</a>
+    </nav>
+
+    <div id="meta" class="result container">
+      <h4>This is API testing result page on DEVELOPMENT environment.</h4>
+      <br>
+      <p><span class="text-info">Functional testing</span> is to ensure API returns correct output from requests.</p>
+    </div>
+
+    <div id="func-dev-result" class="result row">
+      <div class="col-2">
+        <div id="func-dev-tab" class="list-group list-group-flush" role="tablist"></div>
+      </div>
+      <div class="col-10">
+        <div id="func-dev-content" class="tab-content"></div>
+      </div>
+    </div>
+
+    <div id="smoke-dev-result" class="result row">
+      <div class="col-2">
+        <div id="smoke-dev-tab" class="list-group list-group-flush" role="tablist"></div>
+      </div>
+      <div class="col-10">
+        <div id="smoke-dev-content" class="tab-content"></div>
+      </div>
+    </div>
+
+    <div id="perf-dev-result" class="result row">
+      <div class="col-2">
+        <div id="perf-dev-tab" class="list-group list-group-flush" role="tablist"></div>
+      </div>
+      <div class="col-10">
+        <div id="perf-dev-content" class="tab-content"></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <script src="../utils/report-functions.js"></script>
+  </body>
+
+</html>
